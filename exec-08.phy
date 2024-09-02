@@ -13,7 +13,6 @@ Total de votos válidos: x%
 Total de votos em branco: y%
 Total de votos nulos: t%
 
-
 numero_total_de_eleitores = int(input("digite o numero total de eleitores: "))
 total_de_eleitores = int(numero_total_de_eleitores)
 
@@ -26,3 +25,8 @@ total_de_nulos = int(numero_total_de_nulos)
 numero_total_de_validos = int(input("digite o numero total de validos: "))
 total_de_validos = int(numero_total_de_validos)
 
+percentual_dos_votos_brancos = (numero_total_de_votos_brancos/numero_total_de_eleitores)*100 
+print(str(percentual_dos_votos_brancos) + '%numero_total_de_votos_brancos')
+
+percentual_dos_votos_nulos = (numero_total_de_nulos/numero_total_de_eleitores)*100 
+print(str(percentual_dos_votos_nulos) + '%numero_total_de_nulos')
